@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { userLogIn } from 'redux/auth/operations';
 import { Formik } from 'formik';
-import { StyledField, StyledForm, StyledLabel } from './login.styled';
+import { StyledField, StyledForm, StyledLabel } from './Login.styled';
 
 export const Login = () => {
   const dispatch = useDispatch();

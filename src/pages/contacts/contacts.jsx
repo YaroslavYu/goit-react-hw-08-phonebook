@@ -2,7 +2,7 @@ import { ContactForm } from 'components/ContactForm/ContactForm';
 import { Filter } from 'components/Filter/Filter';
 import { ContactList } from 'components/ContactList/ContactList';
 
-import { StyledAppContainer, Title } from './contacts.styled';
+import { Title, StyledAppContainer } from './Contacts.styled';
 
 export const Contacts = () => {
   return (
