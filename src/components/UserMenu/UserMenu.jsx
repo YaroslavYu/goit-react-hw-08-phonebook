@@ -7,10 +7,10 @@ import {
   StyledUserEmail,
   StyledButton,
 } from './UserMenu.styled';
+
 export const UserMenu = () => {
   const { email } = useSelector(selectUser);
   const dispatch = useDispatch();
-  // console.log(user);
   return (
     <StyledUserContainer>
       <StyledUserEmail>{email}</StyledUserEmail>

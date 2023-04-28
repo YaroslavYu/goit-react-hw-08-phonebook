@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const StyledNavLink = styled(NavLink)`
-  /* background-color: #111111; */
-  /* padding: 10px 15px; */
   text-decoration: none;
   color: black;
   cursor: pointer;

@@ -5,9 +5,6 @@ import { addContact } from 'redux/contacts/operations';
 import { Formik, ErrorMessage } from 'formik';
 import * as yup from 'yup';
 
-// import { checkContactIsAdded } from 'common/prePostCheckContact';
-
-// import { Form, Field, StyledError } from './phonebook.styled';
 import { StyledField, StyledForm, StyledError } from './ContactForm.styled';
 
 const initialValues = {
@@ -39,7 +36,6 @@ export const ContactForm = () => {
   };
 
   const addCheckedContact = (newContact, actions) => {
-    // console.log(newContact);
     const isAddedBefore = checkContactIsAdded(newContact, contacts);
     if (isAddedBefore) {
       alert('contact be already added before');
