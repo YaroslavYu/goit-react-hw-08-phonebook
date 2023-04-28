@@ -6,6 +6,7 @@ import { userRefresh } from 'redux/auth/operations';
 import { selectIsRefreshing } from 'redux/auth/selectors';
 
 import { PATH_TO } from 'common/pathes';
+
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
 
