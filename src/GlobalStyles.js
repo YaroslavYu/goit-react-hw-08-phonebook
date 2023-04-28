@@ -11,7 +11,9 @@ ${normalize}
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 30px;
+  /* padding: 30px; */
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 code {
