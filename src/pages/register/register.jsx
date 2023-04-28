@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { Formik } from 'formik';
+
 import { userRegister } from 'redux/auth/operations';
 
 import { StyledField, StyledForm, StyledLabel } from './Register.styled';
