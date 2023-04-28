@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { Formik } from 'formik';
 import { userRegister } from 'redux/auth/operations';
-import { StyledField, StyledForm, StyledLabel } from './Register.styled';
+import { StyledField, StyledForm, StyledLabel } from './register.styled';
 
 export const Register = () => {
   const dispatch = useDispatch();
