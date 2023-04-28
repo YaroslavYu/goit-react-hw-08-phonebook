@@ -11,10 +11,10 @@ import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
 
 import { Navigation } from './Navigation/Navigation';
-import { Login } from 'pages/Login/Login';
-import { Contacts } from 'pages/Contacts/Contacts';
 import { Home } from 'pages/Home/Home';
 import { Register } from 'pages/Register/Register';
+import { Login } from 'pages/Login/Login';
+import { Contacts } from 'pages/Contacts/Contacts';
 
 export const App = () => {
   const dispatch = useDispatch();
